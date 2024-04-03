@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,300;0,400;0,500;0,600;0,700;1,100&display=swap');
+@import url("https://use.fontawesome.com/releases/v5.7.2/css/all.css");
+
+
+.header {
+  background: transparent;
+  padding: 10px;
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: 900;
+  position: absolute;
+  top: 0;
+  z-index: 999;
+  width: 100%;
+
+  a {
+    align-items: center;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 23px;
+    letter-spacing: 1.4px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin-right: 25px
+  }
+
+  .button-header {
+    width: 149px;
+    height: 49px;
+    background: #5fcec6;
+    padding: 12px 35px;
+    border-radius: 5px;
+    color: #fff !important;
+  }
+
+  .dropdown-toggle::after {
+    position: absolute;
+    left: -25px;
+  }
+
+  button.dropdown-toggle.btn.btn-secondary,
+  button.dropdown-toggle.btn.btn-secondary:hover {
+    background: transparent;
+    border: 0px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 29px;
+    color: #97A3B4 !important;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    box-shadow: none !important;
+    text-align: right;
+    justify-content: flex-end;
+    padding-left: 0;
+    min-width: auto;
+  }
+
+  .dropdown-item {
+    height: 50px;
+    width: 100%;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 15px;
+    border-bottom: 1px solid #E6EAEE;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    color: #97A3B4;
+    text-decoration: none;
+
+    a {
+      color: #97A3B4;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 14px;
+      text-transform: none;
+      text-decoration: none;
+      letter-spacing: 0px;
+    }
+
+  }
+
+  .dropdown-menu {
+    padding: 0;
+    background: #FFFFFF;
+    -webkit-box-shadow: 0px 5px 14px rgba(0, 0, 0, 0.12);
+    box-shadow: 0px 5px 14px rgba(0, 0, 0, 0.12);
+    border-radius: 6px;
+    border: none;
+    padding: 0px;
+  }
+
+  .dropdown-item:last-of-type {
+    border: 0px
+  }
+}
+
+.login-section img {
+  padding-right: 10px;
+}
+
+.loggedin.header {
+  position: relative;
+
+  .login-section img {
+    padding-right: 10px;
+    max-width: 50px;
+    margin-left: 10px;
+  }
+
+  button.dropdown-toggle.btn.btn-secondary {
+    background: transparent !important;
+    border: 0px !important;
+  }
+}
+
+.dark-header.header {
+  a {
+    color: #333;
+    font-weight: bold;
+  }
+}
+
+.loggedin.header .login-section .userimgs {
+  height: 50px;
+  width: 50px;
+  border-radius: 100%;
+  overflow: hidden;
+  margin-left: 10px;
+
+  img {
+    margin: 0;
+    padding: 0;
+  }
+}

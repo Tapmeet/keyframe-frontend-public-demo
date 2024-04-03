@@ -1,0 +1,130 @@
+@media screen and (min-width: 2200px) {
+  .outervh {
+    padding-bottom: 200px;
+  }
+
+  section.template-new-wrapper {
+    max-width: 1900px;
+    margin: auto;
+  }
+
+  .outervh .template-new-wrapper-scene1 {
+    max-height: 642px;
+    min-height: 642px;
+  }
+
+  .nav-slider .col-sm-4 {
+    max-width: 72% !important;
+    flex: 0 0 72%;
+  }
+
+  section.template-new-wrapper-scene1.scene-16.section-18.scene-19.scene-26.slider-section .half-width .imgtwo.img-slide {
+    filter: none;
+    margin-top: 180px;
+    max-height: 276px;
+  }
+}
+
+@media screen and (min-width: 1600px) {
+  .home-wrapper.new .firstVideo-wrapper {
+    padding: 222px 0px;
+  }
+
+  section.template-new-wrapper-scene1.scene-16.section-five.section-six.section-18.scene-30.scene-26.scene-19.slider-section .full-width .imgone {
+    margin-left: -50%;
+  }
+
+  // section.template-new-wrapper-scene1.scene-16.section-18.scene-19.scene-26.slider-section .half-width .imgone {
+  //   position: absolute;
+  //   top: -39%;
+  //   left: 0;
+  // }
+
+  // section.template-new-wrapper-scene1.scene-16.section-18.scene-19.scene-26.slider-section .half-width .imgthree {
+  //   bottom: -38%;
+  // }
+}
+
+@media screen and (max-width: 1366px) {
+  .outervh .template-new-wrapper-scene1 {
+    min-height: 433px;
+    width: 770px !important;
+    flex: 0 0 770px;
+    height: 433px;
+  }
+
+  .bg-grays.left-panel .upload-pane {
+    height: auto;
+  }
+}
+
+
+@media screen and (max-width: 1199px) {
+  .change-wrapper li {
+    width: 100%;
+    padding: 10px;
+  }
+
+  .template-new-wrapper-text-editor {
+    min-width: 206px;
+    flex: 0 0 206px;
+  }
+
+  .dropdown-toggle.btn.btn-secondary span {
+    display: none;
+  }
+
+  .template-new-wrapper-top .d-flex input {
+    width: 55%;
+  }
+
+  .name-section.undosection {
+    margin-left: -29% !important;
+  }
+
+
+
+
+}
+
+@media screen and (max-width: 991px) {
+  .row.new-home-inner ul li {
+    font-size: 13px;
+  }
+
+  .home-new .col-12.col-sm-4,
+  .my-template .col-sm-4.col-12 {
+    max-width: 50%;
+    flex: 0 0 50%;
+  }
+
+  .template-new-wrapper-top ul li button {
+    right: 132px;
+    padding: 10px 15px;
+  }
+
+  .header .dropdown-menu {
+    left: -100px;
+  }
+
+  .profile-page.section img.triangle2.profile-bg {
+
+    z-index: -1;
+  }
+
+  .pricing-page .col-12 {
+    height: 100%;
+    max-width: 50%;
+  }
+
+  .profile-page.section .container-full.pricing-page .row .pricing-box {
+
+    padding-bottom: 95px;
+  }
+
+  .table {
+    z-index: 1;
+    position: relative;
+    background: #fff;
+  }
+}

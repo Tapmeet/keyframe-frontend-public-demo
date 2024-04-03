@@ -1,0 +1,316 @@
+div.signup {
+
+  padding-top: 100px;
+
+  .lightblack {
+    margin-top: 30px;
+    font-weight: 300;
+    font-size: 19px;
+    line-height: 29px;
+    color: #999999
+  }
+
+  .group-oauth {
+    margin-bottom: 40px;
+    margin-top: 30px;
+  }
+
+  .group-separator {
+    margin-bottom: 38px;
+  }
+
+  .group-separator .separator {
+    border-top: 1px solid #E6EAEE;
+    width: 269px;
+  }
+
+  form.signup {
+    margin: 40px auto 0;
+    max-width: 100%;
+
+    .btn-section {
+      margin: 30px -15px 30px;
+    }
+
+    .link {
+      font-weight: 400;
+      line-height: 16px;
+      text-transform: capitalize;
+      color: #0C6195;
+
+    }
+
+    input[type="checkbox"] {
+      margin-right: 7px;
+    }
+
+    .btn-section.m-bottom {
+      margin-bottom: 0;
+    }
+
+    .btn-section.m-top {
+      margin-top: 15px;
+    }
+  }
+
+  .btn-google {
+    padding-left: 37px;
+    color: #333333;
+    background-color: #FFFFFF;
+    border: 1.5px solid #E6EAEE;
+    background-image: url("./../images/signup/login-google.svg");
+    background-position: 12px center;
+  }
+
+  .btn-facebook {
+    padding-left: 33px;
+    color: #FFFFFF;
+    background-color: #39579A;
+    background-image: url("./../images/signup/login-facebook.svg");
+    background-position: 9px center;
+  }
+
+  .btn-oauth {
+    width: 315px;
+    height: 43px;
+    cursor: pointer;
+    text-align: center;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 43px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    border-radius: 6px;
+    background-repeat: no-repeat;
+  }
+
+  .d-flex {
+    display: flex !important;
+    text-align: center;
+    margin: auto;
+    width: 100%;
+  }
+}
+
+.signup {
+  .text-left {
+    text-align: left !important;
+    display: block;
+  }
+
+}
+
+.password-email {
+  margin-top: 30px;
+  font-weight: 300;
+  font-size: 19px;
+  line-height: 29px;
+  color: #999999;
+}
+
+.password-emailtitle {
+  margin-top: 31px;
+  font-weight: normal;
+  font-size: 38px;
+  line-height: 46px;
+  color: #333333;
+}
+
+.password-email-btn-back {
+  cursor: pointer;
+  font-weight: 500;
+  font-size: 19px;
+  line-height: 29px;
+  color: #0C6195;
+}
+
+.supportform {
+  label {
+    text-align: left;
+    display: block;
+
+    span {
+      color: #ff0000
+    }
+  }
+
+  .form-group {
+    margin-bottom: 30px;
+  }
+}
+
+.section.signupleft {
+  background: #0a122a;
+  position: relative;
+
+  &::before {
+    background-image: url("./../images/homeV3/SideShape2inverse.png");
+    content: "";
+    position: absolute;
+    background-size: contain;
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    height: 420px;
+    width: 80px;
+    bottom: 5%;
+    left: 0
+  }
+}
+
+.signupleft .inner {
+  max-width: 480px;
+  margin: auto;
+}
+
+.container-full {
+  overflow: hidden;
+
+  .row>.col-12.signup {
+    min-height: 100vh;
+    padding: 50px 150px;
+
+    h3 {
+      margin-top: 200px;
+      color: #fff;
+    }
+
+    p {
+      color: #fff;
+    }
+  }
+
+  .row>.col-12.signup.signupRight {
+    padding-top: 100px;
+    position: relative;
+
+    &::before {
+      background-image: url("./../images/homeV3/Circle1.png");
+      content: "";
+      position: absolute;
+      background-size: cover;
+      background-position: center bottom;
+      background-repeat: no-repeat;
+      height: 70px;
+      width: 70px;
+      top: -20px;
+      left: -20px;
+    }
+
+    &::after {
+      background-image: url("./../images/homeV3/Check-Circle.png");
+      content: "";
+      position: absolute;
+      background-size: cover;
+      background-position: center bottom;
+      background-repeat: no-repeat;
+      height: 160px;
+      width: 160px;
+      bottom: -50px;
+      left: -50px;
+    }
+
+    .link {
+      color: #333;
+    }
+
+    .form-signup {
+      position: relative;
+
+      &::before {
+        background-image: url("./../images/homeV3/Triangle1.png");
+        content: "";
+        position: absolute;
+        background-size: cover;
+        background-position: center bottom;
+        background-repeat: no-repeat;
+        height: 70px;
+        width: 70px;
+        top: -49%;
+        right: -75px;
+      }
+
+      &::after {
+        background-image: url("./../images/homeV3/HalfCircle.png");
+        content: "";
+        position: absolute;
+        background-size: cover;
+        background-position: center bottom;
+        background-repeat: no-repeat;
+        height: 80px;
+        width: 80px;
+        bottom: 150px;
+        left: 108%;
+      }
+    }
+
+    .seperator {
+      img {
+        max-width: 20px;
+        margin-left: 15px;
+
+      }
+
+      p {
+        color: #333;
+        margin-top: 20px;
+      }
+    }
+  }
+
+  .signupleft {
+    overflow: hidden;
+    position: relative;
+    z-index: 999;
+
+    .btn {
+      background-color: #ee6352;
+      border: 1px solid #ee6352;
+    }
+  }
+
+  .form-group {
+    .col-12 {
+      position: relative;
+
+      label {
+        position: absolute;
+        left: 65px;
+        top: 10px
+      }
+
+      img {
+        position: absolute;
+        left: 35px;
+        max-width: 18px;
+        top: 10px
+      }
+
+      .form-control {
+        height: 70px;
+        /* border: 0px; */
+        background: #f4f7f7 !important;
+        border: 1px solid #eee;
+        padding-top: 31px;
+        padding-left: 50px;
+        font-size: 14px;
+      }
+    }
+  }
+}
+
+.copy-right {
+  margin-top: 30px;
+  position: absolute;
+  bottom: 10px;
+  margin: auto;
+  text-align: center;
+  left: 0;
+  right: 0;
+
+  label {
+    font-size: 13px;
+    font-weight: 600;
+  }
+}
